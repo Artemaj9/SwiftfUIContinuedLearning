@@ -24,6 +24,7 @@
 		AC0BD8B72A47A219007E0568 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC0BD8B62A47A219007E0568 /* tada.mp3 */; };
 		AC0BD8B92A47A45C007E0568 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC0BD8B82A47A45C007E0568 /* badum.mp3 */; };
 		AC0BD8BB2A47A829007E0568 /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8BA2A47A829007E0568 /* HapticsBootcamp.swift */; };
+		AC0BD8BD2A47B0AB007E0568 /* LocalNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8BC2A47B0AB007E0568 /* LocalNotificationBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		AC0BD8B62A47A219007E0568 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		AC0BD8B82A47A45C007E0568 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 		AC0BD8BA2A47A829007E0568 /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
+		AC0BD8BC2A47B0AB007E0568 /* LocalNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				AC0BD8B12A478A73007E0568 /* MaskBootcamp.swift */,
 				AC0BD8B32A479F50007E0568 /* SoundsBootcamp.swift */,
 				AC0BD8BA2A47A829007E0568 /* HapticsBootcamp.swift */,
+				AC0BD8BC2A47B0AB007E0568 /* LocalNotificationBootcamp.swift */,
 				AC0BD8B52A47A1FB007E0568 /* Sounds */,
 				AC0BD88D2A4645EF007E0568 /* Assets.xcassets */,
 				AC0BD88F2A4645EF007E0568 /* Preview Content */,
@@ -191,6 +194,7 @@
 				AC0BD8B22A478A73007E0568 /* MaskBootcamp.swift in Sources */,
 				AC0BD8A82A470990007E0568 /* DragGestureBootcamp.swift in Sources */,
 				AC0BD88C2A4645EE007E0568 /* ContentView.swift in Sources */,
+				AC0BD8BD2A47B0AB007E0568 /* LocalNotificationBootcamp.swift in Sources */,
 				AC0BD8AC2A474847007E0568 /* ScrollViewReaderBootcamp.swift in Sources */,
 				AC0BD8B02A4752F1007E0568 /* MultipleSheetsBootcamp.swift in Sources */,
 				AC0BD88A2A4645EE007E0568 /* SwiftfulThinkingContinuedLearningApp.swift in Sources */,
