@@ -38,6 +38,7 @@
 		AC0BD8F42A49B2AE007E0568 /* CodableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8F32A49B2AE007E0568 /* CodableBootcamp.swift */; };
 		AC0BD8F62A49C7BB007E0568 /* DownloadWithEscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8F52A49C7BB007E0568 /* DownloadWithEscapingBootcamp.swift */; };
 		AC0BD8F82A49E69F007E0568 /* DownloadWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8F72A49E69F007E0568 /* DownloadWithCombine.swift */; };
+		AC0BD8FA2A49F8E1007E0568 /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8F92A49F8E1007E0568 /* TimerBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		AC0BD8F32A49B2AE007E0568 /* CodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp.swift; sourceTree = "<group>"; };
 		AC0BD8F52A49C7BB007E0568 /* DownloadWithEscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscapingBootcamp.swift; sourceTree = "<group>"; };
 		AC0BD8F72A49E69F007E0568 /* DownloadWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombine.swift; sourceTree = "<group>"; };
+		AC0BD8F92A49F8E1007E0568 /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				AC0BD8F32A49B2AE007E0568 /* CodableBootcamp.swift */,
 				AC0BD8F52A49C7BB007E0568 /* DownloadWithEscapingBootcamp.swift */,
 				AC0BD8F72A49E69F007E0568 /* DownloadWithCombine.swift */,
+				AC0BD8F92A49F8E1007E0568 /* TimerBootcamp.swift */,
 				AC0BD8B52A47A1FB007E0568 /* Sounds */,
 				AC0BD88D2A4645EF007E0568 /* Assets.xcassets */,
 				AC0BD88F2A4645EF007E0568 /* Preview Content */,
@@ -252,6 +255,7 @@
 				AC0BD8AE2A474DB3007E0568 /* GeometryReaderBootcamp.swift in Sources */,
 				AC0BD8BB2A47A829007E0568 /* HapticsBootcamp.swift in Sources */,
 				AC0BD8BF2A47BA7C007E0568 /* HashableBootcamp.swift in Sources */,
+				AC0BD8FA2A49F8E1007E0568 /* TimerBootcamp.swift in Sources */,
 				AC0BD8E72A48E492007E0568 /* CoreDataRelationshipsBootcamp.swift in Sources */,
 				AC0BD8982A464625007E0568 /* LongPressGestureBootcamp.swift in Sources */,
 				AC0BD8A62A470497007E0568 /* RotationGestureBootcamp.swift in Sources */,
