@@ -35,6 +35,7 @@
 		AC0BD8EE2A499344007E0568 /* WeakSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8ED2A499344007E0568 /* WeakSelfBootcamp.swift */; };
 		AC0BD8F02A49A5F1007E0568 /* TypealiasBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8EF2A49A5F1007E0568 /* TypealiasBootcamp.swift */; };
 		AC0BD8F22A49AABE007E0568 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8F12A49AABE007E0568 /* EscapingBootcamp.swift */; };
+		AC0BD8F42A49B2AE007E0568 /* CodableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8F32A49B2AE007E0568 /* CodableBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		AC0BD8ED2A499344007E0568 /* WeakSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootcamp.swift; sourceTree = "<group>"; };
 		AC0BD8EF2A49A5F1007E0568 /* TypealiasBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasBootcamp.swift; sourceTree = "<group>"; };
 		AC0BD8F12A49AABE007E0568 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
+		AC0BD8F32A49B2AE007E0568 /* CodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				AC0BD8ED2A499344007E0568 /* WeakSelfBootcamp.swift */,
 				AC0BD8EF2A49A5F1007E0568 /* TypealiasBootcamp.swift */,
 				AC0BD8F12A49AABE007E0568 /* EscapingBootcamp.swift */,
+				AC0BD8F32A49B2AE007E0568 /* CodableBootcamp.swift */,
 				AC0BD8B52A47A1FB007E0568 /* Sounds */,
 				AC0BD88D2A4645EF007E0568 /* Assets.xcassets */,
 				AC0BD88F2A4645EF007E0568 /* Preview Content */,
@@ -235,6 +238,7 @@
 				AC0BD8B02A4752F1007E0568 /* MultipleSheetsBootcamp.swift in Sources */,
 				AC0BD8F02A49A5F1007E0568 /* TypealiasBootcamp.swift in Sources */,
 				AC0BD88A2A4645EE007E0568 /* SwiftfulThinkingContinuedLearningApp.swift in Sources */,
+				AC0BD8F42A49B2AE007E0568 /* CodableBootcamp.swift in Sources */,
 				AC0BD8EE2A499344007E0568 /* WeakSelfBootcamp.swift in Sources */,
 				AC0BD8A42A46FCDB007E0568 /* MagnificationGestureBootcamp.swift in Sources */,
 				AC0BD8AE2A474DB3007E0568 /* GeometryReaderBootcamp.swift in Sources */,
