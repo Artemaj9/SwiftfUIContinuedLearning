@@ -34,6 +34,7 @@
 		AC0BD8EC2A498AB6007E0568 /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8EB2A498AB6007E0568 /* BackgroundThreadBootcamp.swift */; };
 		AC0BD8EE2A499344007E0568 /* WeakSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8ED2A499344007E0568 /* WeakSelfBootcamp.swift */; };
 		AC0BD8F02A49A5F1007E0568 /* TypealiasBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8EF2A49A5F1007E0568 /* TypealiasBootcamp.swift */; };
+		AC0BD8F22A49AABE007E0568 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8F12A49AABE007E0568 /* EscapingBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		AC0BD8EB2A498AB6007E0568 /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 		AC0BD8ED2A499344007E0568 /* WeakSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootcamp.swift; sourceTree = "<group>"; };
 		AC0BD8EF2A49A5F1007E0568 /* TypealiasBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasBootcamp.swift; sourceTree = "<group>"; };
+		AC0BD8F12A49AABE007E0568 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				AC0BD8EB2A498AB6007E0568 /* BackgroundThreadBootcamp.swift */,
 				AC0BD8ED2A499344007E0568 /* WeakSelfBootcamp.swift */,
 				AC0BD8EF2A49A5F1007E0568 /* TypealiasBootcamp.swift */,
+				AC0BD8F12A49AABE007E0568 /* EscapingBootcamp.swift */,
 				AC0BD8B52A47A1FB007E0568 /* Sounds */,
 				AC0BD88D2A4645EF007E0568 /* Assets.xcassets */,
 				AC0BD88F2A4645EF007E0568 /* Preview Content */,
@@ -216,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC0BD8F22A49AABE007E0568 /* EscapingBootcamp.swift in Sources */,
 				AC0BD8E52A48D6A5007E0568 /* FruitsContainer.xcdatamodeld in Sources */,
 				AC0BD8B42A479F51007E0568 /* SoundsBootcamp.swift in Sources */,
 				AC0BD8AA2A470FDA007E0568 /* DragGestureBootcamp2.swift in Sources */,
