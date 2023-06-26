@@ -32,6 +32,7 @@
 		AC0BD8E72A48E492007E0568 /* CoreDataRelationshipsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8E62A48E492007E0568 /* CoreDataRelationshipsBootcamp.swift */; };
 		AC0BD8EA2A48E8DB007E0568 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8E82A48E8DB007E0568 /* CoreDataContainer.xcdatamodeld */; };
 		AC0BD8EC2A498AB6007E0568 /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8EB2A498AB6007E0568 /* BackgroundThreadBootcamp.swift */; };
+		AC0BD8EE2A499344007E0568 /* WeakSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8ED2A499344007E0568 /* WeakSelfBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		AC0BD8E62A48E492007E0568 /* CoreDataRelationshipsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBootcamp.swift; sourceTree = "<group>"; };
 		AC0BD8E92A48E8DB007E0568 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 		AC0BD8EB2A498AB6007E0568 /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
+		AC0BD8ED2A499344007E0568 /* WeakSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				AC0BD8E62A48E492007E0568 /* CoreDataRelationshipsBootcamp.swift */,
 				AC0BD8E82A48E8DB007E0568 /* CoreDataContainer.xcdatamodeld */,
 				AC0BD8EB2A498AB6007E0568 /* BackgroundThreadBootcamp.swift */,
+				AC0BD8ED2A499344007E0568 /* WeakSelfBootcamp.swift */,
 				AC0BD8B52A47A1FB007E0568 /* Sounds */,
 				AC0BD88D2A4645EF007E0568 /* Assets.xcassets */,
 				AC0BD88F2A4645EF007E0568 /* Preview Content */,
@@ -224,6 +227,7 @@
 				AC0BD8AC2A474847007E0568 /* ScrollViewReaderBootcamp.swift in Sources */,
 				AC0BD8B02A4752F1007E0568 /* MultipleSheetsBootcamp.swift in Sources */,
 				AC0BD88A2A4645EE007E0568 /* SwiftfulThinkingContinuedLearningApp.swift in Sources */,
+				AC0BD8EE2A499344007E0568 /* WeakSelfBootcamp.swift in Sources */,
 				AC0BD8A42A46FCDB007E0568 /* MagnificationGestureBootcamp.swift in Sources */,
 				AC0BD8AE2A474DB3007E0568 /* GeometryReaderBootcamp.swift in Sources */,
 				AC0BD8BB2A47A829007E0568 /* HapticsBootcamp.swift in Sources */,
