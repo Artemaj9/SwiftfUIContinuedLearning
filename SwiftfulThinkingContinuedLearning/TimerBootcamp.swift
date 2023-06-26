@@ -11,7 +11,7 @@ import Combine
 
 struct TimerBootcamp: View {
     
-    let timer = Timer.publish(every: 0.4, on: .main, in: .common).autoconnect()
+    let timer = Timer.publish(every: 0.5, on: .main, in: .common).autoconnect()
     
     
     //Corrent time
@@ -47,7 +47,7 @@ struct TimerBootcamp: View {
     */
     
     //Animation counter
-    @State var  count: Int = 0
+    @State var  count: Int = 1
     
     var body: some View {
         ZStack {
@@ -58,6 +58,25 @@ struct TimerBootcamp: View {
                 endRadius: 500)
             .ignoresSafeArea()
             
+            TabView(selection: $count) {
+                Rectangle()
+                    .foregroundColor(.red)
+                    .tag(1)
+                Rectangle()
+                    .foregroundColor(.blue)
+                    .tag(2)
+                Rectangle()
+                    .foregroundColor(.orange)
+                    .tag(3)
+                Rectangle()
+                    .foregroundColor(.pink)
+                    .tag(4)
+                Rectangle()
+                    .foregroundColor(.cyan)
+                    .tag(5)
+            }
+            .tabViewStyle(PageTabViewStyle())
+            
             
             HStack(spacing: 15) {
                 Circle()
@@ -66,14 +85,19 @@ struct TimerBootcamp: View {
                     .offset(x: 10.0, y: count == 2 ? -200 : 0)
                 Circle()
                     .offset(x: 10.0, y: count == 3 ? -200 : 0)
+                Circle()
+                    .offset(x: 10.0, y: count == 4 ? -200 : 0)
+                Circle()
+                    .offset(x: 10.0, y: count == 5 ? -200 : 0)
+                
             }
             .frame(width: 200)
             .foregroundColor(.white)
             
         }
         .onReceive(timer) { _ in
-            withAnimation(.easeInOut(duration: 0.5)) {
-                count = count == 3 ? 0 : count + 1
+            withAnimation(.default) {
+                count = count == 5 ? 1 : count + 1
             }
         }
             
