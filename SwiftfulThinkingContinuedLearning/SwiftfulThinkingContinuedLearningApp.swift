@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftfulThinkingContinuedLearning: App {
     var body: some Scene {
         WindowGroup {
-            SubscriberBootcamp()
+            FileManagerBootcamp()
         }
     }
 }

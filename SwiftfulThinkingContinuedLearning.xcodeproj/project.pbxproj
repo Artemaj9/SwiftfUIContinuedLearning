@@ -40,6 +40,7 @@
 		AC0BD8F82A49E69F007E0568 /* DownloadWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8F72A49E69F007E0568 /* DownloadWithCombine.swift */; };
 		AC0BD8FA2A49F8E1007E0568 /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8F92A49F8E1007E0568 /* TimerBootcamp.swift */; };
 		AC0BD8FC2A4A04BD007E0568 /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8FB2A4A04BD007E0568 /* SubscriberBootcamp.swift */; };
+		AC0BD8FE2A4A3902007E0568 /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8FD2A4A3902007E0568 /* FileManagerBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		AC0BD8F72A49E69F007E0568 /* DownloadWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombine.swift; sourceTree = "<group>"; };
 		AC0BD8F92A49F8E1007E0568 /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
 		AC0BD8FB2A4A04BD007E0568 /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
+		AC0BD8FD2A4A3902007E0568 /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				AC0BD8F72A49E69F007E0568 /* DownloadWithCombine.swift */,
 				AC0BD8F92A49F8E1007E0568 /* TimerBootcamp.swift */,
 				AC0BD8FB2A4A04BD007E0568 /* SubscriberBootcamp.swift */,
+				AC0BD8FD2A4A3902007E0568 /* FileManagerBootcamp.swift */,
 				AC0BD8B52A47A1FB007E0568 /* Sounds */,
 				AC0BD88D2A4645EF007E0568 /* Assets.xcassets */,
 				AC0BD88F2A4645EF007E0568 /* Preview Content */,
@@ -240,6 +243,7 @@
 				AC0BD8B42A479F51007E0568 /* SoundsBootcamp.swift in Sources */,
 				AC0BD8AA2A470FDA007E0568 /* DragGestureBootcamp2.swift in Sources */,
 				AC0BD8EC2A498AB6007E0568 /* BackgroundThreadBootcamp.swift in Sources */,
+				AC0BD8FE2A4A3902007E0568 /* FileManagerBootcamp.swift in Sources */,
 				AC0BD8B22A478A73007E0568 /* MaskBootcamp.swift in Sources */,
 				AC0BD8E22A48D504007E0568 /* CoreDataBootcamp.swift in Sources */,
 				AC0BD8A82A470990007E0568 /* DragGestureBootcamp.swift in Sources */,
