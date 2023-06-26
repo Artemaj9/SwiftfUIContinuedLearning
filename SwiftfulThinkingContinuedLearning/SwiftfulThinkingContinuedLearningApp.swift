@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct SwiftfulThinkingContinuedLearningApp: App {
+struct SwiftfulThinkingContinuedLearning: App {
     var body: some Scene {
         WindowGroup {
-            CodableBootcamp()
+            DownloadWithEscapingBootcamp()
         }
     }
 }
