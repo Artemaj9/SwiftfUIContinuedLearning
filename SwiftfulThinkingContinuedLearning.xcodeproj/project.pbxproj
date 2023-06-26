@@ -31,6 +31,7 @@
 		AC0BD8E52A48D6A5007E0568 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8E32A48D6A5007E0568 /* FruitsContainer.xcdatamodeld */; };
 		AC0BD8E72A48E492007E0568 /* CoreDataRelationshipsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8E62A48E492007E0568 /* CoreDataRelationshipsBootcamp.swift */; };
 		AC0BD8EA2A48E8DB007E0568 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8E82A48E8DB007E0568 /* CoreDataContainer.xcdatamodeld */; };
+		AC0BD8EC2A498AB6007E0568 /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8EB2A498AB6007E0568 /* BackgroundThreadBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		AC0BD8E42A48D6A5007E0568 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		AC0BD8E62A48E492007E0568 /* CoreDataRelationshipsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBootcamp.swift; sourceTree = "<group>"; };
 		AC0BD8E92A48E8DB007E0568 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
+		AC0BD8EB2A498AB6007E0568 /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				AC0BD8E32A48D6A5007E0568 /* FruitsContainer.xcdatamodeld */,
 				AC0BD8E62A48E492007E0568 /* CoreDataRelationshipsBootcamp.swift */,
 				AC0BD8E82A48E8DB007E0568 /* CoreDataContainer.xcdatamodeld */,
+				AC0BD8EB2A498AB6007E0568 /* BackgroundThreadBootcamp.swift */,
 				AC0BD8B52A47A1FB007E0568 /* Sounds */,
 				AC0BD88D2A4645EF007E0568 /* Assets.xcassets */,
 				AC0BD88F2A4645EF007E0568 /* Preview Content */,
@@ -210,6 +213,7 @@
 				AC0BD8E52A48D6A5007E0568 /* FruitsContainer.xcdatamodeld in Sources */,
 				AC0BD8B42A479F51007E0568 /* SoundsBootcamp.swift in Sources */,
 				AC0BD8AA2A470FDA007E0568 /* DragGestureBootcamp2.swift in Sources */,
+				AC0BD8EC2A498AB6007E0568 /* BackgroundThreadBootcamp.swift in Sources */,
 				AC0BD8B22A478A73007E0568 /* MaskBootcamp.swift in Sources */,
 				AC0BD8E22A48D504007E0568 /* CoreDataBootcamp.swift in Sources */,
 				AC0BD8A82A470990007E0568 /* DragGestureBootcamp.swift in Sources */,
