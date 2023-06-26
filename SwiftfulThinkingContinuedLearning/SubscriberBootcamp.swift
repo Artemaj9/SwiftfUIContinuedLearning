@@ -17,6 +17,8 @@ class SubscriberViewModel: ObservableObject {
     @Published var textFieldText: String = ""
     @Published var textIsValid: Bool = false
     
+    @Published var showButton: Bool = false
+    
     init() {
         setUpTimer()
         addTextFieldSubscriber()
@@ -30,7 +32,7 @@ class SubscriberViewModel: ObservableObject {
                 }
                 return false
             }
-          //  .assign(to: \.textIsValid, on: self) // no way to make self weak.Reccomended use sink whenever you can
+        //  .assign(to: \.textIsValid, on: self) // no way to make self weak.Reccomended use sink whenever you can
             .sink(receiveValue: {[weak self] (isValid) in
                 self?.textIsValid = isValid
             })
@@ -44,10 +46,24 @@ class SubscriberViewModel: ObservableObject {
             .sink { [weak self] _ in
                 guard let self = self else { return } //we make self weak
                 self.count += 1
-//                if self.count >= 10 {
-//                    for item in self.cancellables {
-//                            item.cancel()
+                //                if self.count >= 10 {
+                //                    for item in self.cancellables {
+                //                            item.cancel()
+            }
+            .store(in: &cancellables)
+    }
+    
+    func addButtonSubscriber() {
+        $textIsValid
+            .combineLatest($count)
+            .sink { [weak self] (isValid, count) in
+                guard  let self = self else { return }
+                if isValid && count >= 10 {
+                    self.showButton = true
+                } else {
+                    self.showButton = false
                 }
+            }
             .store(in: &cancellables)
     }
 }
@@ -86,9 +102,22 @@ struct SubscriberBootcamp: View {
                 .padding(.trailing)
                          
                 , alignment: .trailing)
+            
+            Button(action: {}, label:  {
+                Text("Submit".uppercased())
+                    .font(.headline)
+                    .foregroundColor(.white)
+                    .frame(height: 55)
+                    .frame(maxWidth:.infinity)
+                    .background(Color.blue)
+                    .opacity(vm.showButton ? 1.0 : 0.5)
+            })
+            .disabled(!vm.showButton)
                          
         }
+        .padding()
     }
+    
     
     }
 
