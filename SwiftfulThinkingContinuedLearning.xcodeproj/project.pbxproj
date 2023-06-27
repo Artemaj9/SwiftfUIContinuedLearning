@@ -46,6 +46,9 @@
 		AC0BD90B2A4AE492007E0568 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD90A2A4AE492007E0568 /* PhotoModel.swift */; };
 		AC0BD90D2A4AE5E2007E0568 /* DownloadingImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD90C2A4AE5E2007E0568 /* DownloadingImagesViewModel.swift */; };
 		AC0BD9112A4AF822007E0568 /* PhotoModelDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD9102A4AF822007E0568 /* PhotoModelDataService.swift */; };
+		AC0BD9132A4B02F6007E0568 /* DownloadingImagesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD9122A4B02F6007E0568 /* DownloadingImagesRow.swift */; };
+		AC0BD9152A4B03D7007E0568 /* DownloadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD9142A4B03D7007E0568 /* DownloadingImageView.swift */; };
+		AC0BD9172A4B04C5007E0568 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD9162A4B04C5007E0568 /* ImageLoadingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +92,9 @@
 		AC0BD90A2A4AE492007E0568 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
 		AC0BD90C2A4AE5E2007E0568 /* DownloadingImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesViewModel.swift; sourceTree = "<group>"; };
 		AC0BD9102A4AF822007E0568 /* PhotoModelDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelDataService.swift; sourceTree = "<group>"; };
+		AC0BD9122A4B02F6007E0568 /* DownloadingImagesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesRow.swift; sourceTree = "<group>"; };
+		AC0BD9142A4B03D7007E0568 /* DownloadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageView.swift; sourceTree = "<group>"; };
+		AC0BD9162A4B04C5007E0568 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +206,8 @@
 			isa = PBXGroup;
 			children = (
 				AC0BD9082A4AE148007E0568 /* DownloadingImagesBootcamp.swift */,
+				AC0BD9142A4B03D7007E0568 /* DownloadingImageView.swift */,
+				AC0BD9122A4B02F6007E0568 /* DownloadingImagesRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				AC0BD90C2A4AE5E2007E0568 /* DownloadingImagesViewModel.swift */,
+				AC0BD9162A4B04C5007E0568 /* ImageLoadingViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -297,6 +306,7 @@
 				AC0BD8F82A49E69F007E0568 /* DownloadWithCombine.swift in Sources */,
 				AC0BD8B42A479F51007E0568 /* SoundsBootcamp.swift in Sources */,
 				AC0BD9022A4AD4A4007E0568 /* CacheBootcamp.swift in Sources */,
+				AC0BD9132A4B02F6007E0568 /* DownloadingImagesRow.swift in Sources */,
 				AC0BD8AA2A470FDA007E0568 /* DragGestureBootcamp2.swift in Sources */,
 				AC0BD9112A4AF822007E0568 /* PhotoModelDataService.swift in Sources */,
 				AC0BD8EC2A498AB6007E0568 /* BackgroundThreadBootcamp.swift in Sources */,
@@ -318,6 +328,7 @@
 				AC0BD8EE2A499344007E0568 /* WeakSelfBootcamp.swift in Sources */,
 				AC0BD8A42A46FCDB007E0568 /* MagnificationGestureBootcamp.swift in Sources */,
 				AC0BD8AE2A474DB3007E0568 /* GeometryReaderBootcamp.swift in Sources */,
+				AC0BD9172A4B04C5007E0568 /* ImageLoadingViewModel.swift in Sources */,
 				AC0BD8BB2A47A829007E0568 /* HapticsBootcamp.swift in Sources */,
 				AC0BD8BF2A47BA7C007E0568 /* HashableBootcamp.swift in Sources */,
 				AC0BD9092A4AE148007E0568 /* DownloadingImagesBootcamp.swift in Sources */,
@@ -325,6 +336,7 @@
 				AC0BD8FA2A49F8E1007E0568 /* TimerBootcamp.swift in Sources */,
 				AC0BD8E72A48E492007E0568 /* CoreDataRelationshipsBootcamp.swift in Sources */,
 				AC0BD90B2A4AE492007E0568 /* PhotoModel.swift in Sources */,
+				AC0BD9152A4B03D7007E0568 /* DownloadingImageView.swift in Sources */,
 				AC0BD8982A464625007E0568 /* LongPressGestureBootcamp.swift in Sources */,
 				AC0BD8A62A470497007E0568 /* RotationGestureBootcamp.swift in Sources */,
 			);
