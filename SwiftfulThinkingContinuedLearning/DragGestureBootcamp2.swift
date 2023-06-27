@@ -51,6 +51,7 @@ struct DragGestureBootcamp2: View {
 struct DragGestureBootcamp2_Previews: PreviewProvider {
     static var previews: some View {
         DragGestureBootcamp2()
+        MaskBootcamp()
     }
 }
 

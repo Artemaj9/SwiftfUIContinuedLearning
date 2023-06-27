@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct MaskBootcamp: View {
+    init() {
     
+    }
     @State var rating: Int = 4
-    
+   
     var body: some View {
         ZStack{
            starsView
@@ -55,5 +57,6 @@ struct MaskBootcamp: View {
 struct MaskBootcamp_Previews: PreviewProvider {
     static var previews: some View {
         MaskBootcamp()
+        
     }
 }

@@ -54,6 +54,8 @@ struct GeometryReaderBootcamp: View {
 
 struct GeometryReaderBootcamp_Previews: PreviewProvider {
     static var previews: some View {
-        GeometryReaderBootcamp()
+        Group{
+            GeometryReaderBootcamp()
+        }
     }
 }

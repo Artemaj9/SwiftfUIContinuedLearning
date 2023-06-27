@@ -42,6 +42,10 @@
 		AC0BD8FC2A4A04BD007E0568 /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8FB2A4A04BD007E0568 /* SubscriberBootcamp.swift */; };
 		AC0BD8FE2A4A3902007E0568 /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD8FD2A4A3902007E0568 /* FileManagerBootcamp.swift */; };
 		AC0BD9022A4AD4A4007E0568 /* CacheBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD9012A4AD4A4007E0568 /* CacheBootcamp.swift */; };
+		AC0BD9092A4AE148007E0568 /* DownloadingImagesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD9082A4AE148007E0568 /* DownloadingImagesBootcamp.swift */; };
+		AC0BD90B2A4AE492007E0568 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD90A2A4AE492007E0568 /* PhotoModel.swift */; };
+		AC0BD90D2A4AE5E2007E0568 /* DownloadingImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD90C2A4AE5E2007E0568 /* DownloadingImagesViewModel.swift */; };
+		AC0BD9112A4AF822007E0568 /* PhotoModelDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD9102A4AF822007E0568 /* PhotoModelDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +85,10 @@
 		AC0BD8FB2A4A04BD007E0568 /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
 		AC0BD8FD2A4A3902007E0568 /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
 		AC0BD9012A4AD4A4007E0568 /* CacheBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheBootcamp.swift; sourceTree = "<group>"; };
+		AC0BD9082A4AE148007E0568 /* DownloadingImagesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesBootcamp.swift; sourceTree = "<group>"; };
+		AC0BD90A2A4AE492007E0568 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		AC0BD90C2A4AE5E2007E0568 /* DownloadingImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesViewModel.swift; sourceTree = "<group>"; };
+		AC0BD9102A4AF822007E0568 /* PhotoModelDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +150,7 @@
 				AC0BD8F72A49E69F007E0568 /* DownloadWithCombine.swift */,
 				AC0BD8F92A49F8E1007E0568 /* TimerBootcamp.swift */,
 				AC0BD8FB2A4A04BD007E0568 /* SubscriberBootcamp.swift */,
+				AC0BD9032A4AE021007E0568 /* DownloadingImages */,
 				AC0BD8FD2A4A3902007E0568 /* FileManagerBootcamp.swift */,
 				AC0BD9012A4AD4A4007E0568 /* CacheBootcamp.swift */,
 				AC0BD8B52A47A1FB007E0568 /* Sounds */,
@@ -166,6 +175,49 @@
 				AC0BD8B82A47A45C007E0568 /* badum.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		AC0BD9032A4AE021007E0568 /* DownloadingImages */ = {
+			isa = PBXGroup;
+			children = (
+				AC0BD9072A4AE05A007E0568 /* Utilities */,
+				AC0BD9062A4AE049007E0568 /* ViewModels */,
+				AC0BD9052A4AE03C007E0568 /* Views */,
+				AC0BD9042A4AE031007E0568 /* Models */,
+			);
+			path = DownloadingImages;
+			sourceTree = "<group>";
+		};
+		AC0BD9042A4AE031007E0568 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC0BD90A2A4AE492007E0568 /* PhotoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC0BD9052A4AE03C007E0568 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC0BD9082A4AE148007E0568 /* DownloadingImagesBootcamp.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC0BD9062A4AE049007E0568 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AC0BD90C2A4AE5E2007E0568 /* DownloadingImagesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AC0BD9072A4AE05A007E0568 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AC0BD9102A4AF822007E0568 /* PhotoModelDataService.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +298,7 @@
 				AC0BD8B42A479F51007E0568 /* SoundsBootcamp.swift in Sources */,
 				AC0BD9022A4AD4A4007E0568 /* CacheBootcamp.swift in Sources */,
 				AC0BD8AA2A470FDA007E0568 /* DragGestureBootcamp2.swift in Sources */,
+				AC0BD9112A4AF822007E0568 /* PhotoModelDataService.swift in Sources */,
 				AC0BD8EC2A498AB6007E0568 /* BackgroundThreadBootcamp.swift in Sources */,
 				AC0BD8FE2A4A3902007E0568 /* FileManagerBootcamp.swift in Sources */,
 				AC0BD8B22A478A73007E0568 /* MaskBootcamp.swift in Sources */,
@@ -267,8 +320,11 @@
 				AC0BD8AE2A474DB3007E0568 /* GeometryReaderBootcamp.swift in Sources */,
 				AC0BD8BB2A47A829007E0568 /* HapticsBootcamp.swift in Sources */,
 				AC0BD8BF2A47BA7C007E0568 /* HashableBootcamp.swift in Sources */,
+				AC0BD9092A4AE148007E0568 /* DownloadingImagesBootcamp.swift in Sources */,
+				AC0BD90D2A4AE5E2007E0568 /* DownloadingImagesViewModel.swift in Sources */,
 				AC0BD8FA2A49F8E1007E0568 /* TimerBootcamp.swift in Sources */,
 				AC0BD8E72A48E492007E0568 /* CoreDataRelationshipsBootcamp.swift in Sources */,
+				AC0BD90B2A4AE492007E0568 /* PhotoModel.swift in Sources */,
 				AC0BD8982A464625007E0568 /* LongPressGestureBootcamp.swift in Sources */,
 				AC0BD8A62A470497007E0568 /* RotationGestureBootcamp.swift in Sources */,
 			);

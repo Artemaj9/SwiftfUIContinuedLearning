@@ -32,7 +32,7 @@ struct ScrollViewReaderBootcamp: View {
                 ScrollViewReader { proxy in
                     
                     ForEach(0..<50) {index in
-                        Text("This is item #\(index)")
+                          Text("This is item #\(index)")
                             .font(.headline)
                             .frame(height: 200)
                             .frame(maxWidth: .infinity)
