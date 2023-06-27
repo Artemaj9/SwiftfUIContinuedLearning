@@ -49,6 +49,8 @@
 		AC0BD9132A4B02F6007E0568 /* DownloadingImagesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD9122A4B02F6007E0568 /* DownloadingImagesRow.swift */; };
 		AC0BD9152A4B03D7007E0568 /* DownloadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD9142A4B03D7007E0568 /* DownloadingImageView.swift */; };
 		AC0BD9172A4B04C5007E0568 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD9162A4B04C5007E0568 /* ImageLoadingViewModel.swift */; };
+		AC0BD9192A4B1871007E0568 /* PhotoModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD9182A4B1871007E0568 /* PhotoModelCacheManager.swift */; };
+		AC0BD91B2A4B19EA007E0568 /* PhotoModelFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BD91A2A4B19EA007E0568 /* PhotoModelFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +97,8 @@
 		AC0BD9122A4B02F6007E0568 /* DownloadingImagesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesRow.swift; sourceTree = "<group>"; };
 		AC0BD9142A4B03D7007E0568 /* DownloadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageView.swift; sourceTree = "<group>"; };
 		AC0BD9162A4B04C5007E0568 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
+		AC0BD9182A4B1871007E0568 /* PhotoModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelCacheManager.swift; sourceTree = "<group>"; };
+		AC0BD91A2A4B19EA007E0568 /* PhotoModelFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +229,8 @@
 			isa = PBXGroup;
 			children = (
 				AC0BD9102A4AF822007E0568 /* PhotoModelDataService.swift */,
+				AC0BD9182A4B1871007E0568 /* PhotoModelCacheManager.swift */,
+				AC0BD91A2A4B19EA007E0568 /* PhotoModelFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -305,6 +311,7 @@
 				AC0BD8E52A48D6A5007E0568 /* FruitsContainer.xcdatamodeld in Sources */,
 				AC0BD8F82A49E69F007E0568 /* DownloadWithCombine.swift in Sources */,
 				AC0BD8B42A479F51007E0568 /* SoundsBootcamp.swift in Sources */,
+				AC0BD91B2A4B19EA007E0568 /* PhotoModelFileManager.swift in Sources */,
 				AC0BD9022A4AD4A4007E0568 /* CacheBootcamp.swift in Sources */,
 				AC0BD9132A4B02F6007E0568 /* DownloadingImagesRow.swift in Sources */,
 				AC0BD8AA2A470FDA007E0568 /* DragGestureBootcamp2.swift in Sources */,
@@ -314,6 +321,7 @@
 				AC0BD8B22A478A73007E0568 /* MaskBootcamp.swift in Sources */,
 				AC0BD8E22A48D504007E0568 /* CoreDataBootcamp.swift in Sources */,
 				AC0BD8A82A470990007E0568 /* DragGestureBootcamp.swift in Sources */,
+				AC0BD9192A4B1871007E0568 /* PhotoModelCacheManager.swift in Sources */,
 				AC0BD88C2A4645EE007E0568 /* ContentView.swift in Sources */,
 				AC0BD8BD2A47B0AB007E0568 /* LocalNotificationBootcamp.swift in Sources */,
 				AC0BD8FC2A4A04BD007E0568 /* SubscriberBootcamp.swift in Sources */,
